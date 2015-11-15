@@ -1,0 +1,24 @@
+{
+  "name": "gulp-kindlegen",
+  "version": "0.0.1",
+  "description": "Uses amazon's kindlegen service to create .mobi files for all sorts of different book file types.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kindle",
+    "gulp"
+  ],
+  "author": "Theo Syslack",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "path": "^0.12.7",
+    "stream": "0.0.2",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "gulp-debug": "^2.1.2"
+  }
+}
